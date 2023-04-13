@@ -1,9 +1,9 @@
-const names = [Pedro, Carlos, Agustin, Martina, Sol]
+const numbers = [13, 54, 76, 110, 09]
 
-function namesForDelete(names){
-console.log(names)
-console.splice(2, 3, 4)
-console.log(names)
+function numbersForDelete(numbers){
+console.log(numbers)
+numbers.splice(2, 3)
+console.log(numbers)
 }
 
-namesForDelete(names)
+numbersForDelete(numbers)
