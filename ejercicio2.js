@@ -1,9 +1,12 @@
-const numbers = [13, 54, 76, 110, 09]
+const numbers = [13, 54, 76, 89, 62, 77, -89]
 
 function numbersForDelete(numbers){
+
+    if(numbers.length < 5) return "tu array debe tener como mínimo 5 elementos"
 console.log(numbers)
-numbers.splice(2, 3)
+numbers.splice(-3)
 console.log(numbers)
+
 }
 
-numbersForDelete(numbers)
+console.log(numbersForDelete(numbers))
