@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ejercicio1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="title">
+      <h1>¡complete this form and you get a prize!</h1>
+    </header>
+    <main>
+      <section>
+        <form action="form-users">
+            <div>
+          <label for="first-name">first name:</label
+          ><input name="first-input" type="text" required placeholder="Enter your first name..."/>
+        </div> <div>
+          <label for="last-name">last name:</label
+          ><input
+            type="text" required
+            placeholder="Enter your last name..." name="last-name"
+          />
+        </div> <div>
+        <label for="username">username:</label
+          ><input type="text" required placeholder="Enter your username... " name="username" />
+        </div><div>
+          <label for="password">password:</label
+          ><input type="password" maxlength="20" required placeholder="Enter your password..." name="password" /></div>
+          <div>
+          <label for="confirm-password">confirm password:</label
+          ><input type="password" maxlength="20" required placeholder="Confirm your password..." name="confirm-password" />
+        </div>
+        <div>
+          <label for="birthday">your birthday:</label
+          ><input type="date" required name="birthday" />
+        </div>
+        <button>Sumbit</button>
+        </form>
+      </section>
+    </main>
+    <script src="ejercicio1.js"></script>
+  </body>
+</html>
