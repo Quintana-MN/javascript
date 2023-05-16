@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio2.css">
+    <title>Window modal</title>
+</head>
+<body>
+    <header class="title-page">
+        <h1>¡complete this form and you get a prize!</h1>
+      </header>
+      <main>
+        <section>
+          <form action="form-users">
+              <div>
+            <label for="first-name">first name:</label
+            ><input name="first-input" type="text" required placeholder="Enter your first name..."/>
+          </div> <div>
+            <label for="last-name">last name:</label
+            ><input
+              type="text" required
+              placeholder="Enter your last name..." name="last-name"
+            />
+          </div> <div>
+          <label for="username">username:</label
+            ><input type="text" required placeholder="Enter your username... " name="username" />
+          </div><div>
+            <label for="password">password:</label
+            ><input type="password" maxlength="20" required placeholder="Enter your password..." name="password" /></div>
+            <div>
+            <label for="confirm-password">confirm password:</label
+            ><input type="password" maxlength="20" required placeholder="Confirm your password..." name="confirm-password" />
+          </div>
+          <div>
+            <label for="birthday">your birthday:</label
+            ><input type="date" required name="birthday" />
+          </div>
+          <button>Sumbit</button>
+          </form>
+        </section>
+      </main>
+<section class="modal">
+<div class="container-modal">
+    <img src="https://static.vecteezy.com/system/resources/previews/009/599/274/original/cute-cat-head-element-png.png" alt="">
+    <h2 class="title-modal">¡Welcome to the page!</h2>
+    <p class="description">hello, this is a modal window, you decide whether to close it or leave it open</p>
+    <a class="accept" href="#">Accept</a>
+    <a class="close" href="#">Close</a>
+</section>
+
+    <script src="ejercicio2.js"></script>
+</body>
+</html>
